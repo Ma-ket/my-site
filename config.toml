@@ -1,4 +1,9 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://ma-ket.github.io/'
 languageCode = 'ja'
 title = 'Da-hama Site'
 theme = 'github-style'
+publishDir = "docs"  
+contentDir = "content/post"
+disableKinds = ["RSS", "sitemap"]
+[taxonomies]
+tag = "tags"
