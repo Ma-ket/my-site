@@ -1,9 +1,18 @@
-baseURL = 'https://ma-ket.github.io/'
-languageCode = 'ja'
-title = 'Da-hama Site'
-theme = 'github-style'
+baseURL = "https://ma-ket.github.io/"
+languageCode = "ja-jp"
+title = "Da-hama Site"
+author = "Makoto Hamada"
+theme = "github-style"
+summarylength = 50
+HasCJKLanguage = true
+googleAnalytics = "G-XGGL1806HL"
+paginate = 10
 publishDir = "docs"  
 contentDir = "content/post"
 disableKinds = ["RSS", "sitemap"]
+
+[Params]
+dateformat = "2022/4/12"
+
 [taxonomies]
 tag = "tags"
