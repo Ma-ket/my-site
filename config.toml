@@ -12,6 +12,8 @@ contentDir = "content/post"
 disableKinds = ["RSS", "sitemap"]
 
 [Params]
+Description = "だーはま"
+Introduction = "いろんな知識を身につけて、快適な空間の中で人生を送りたい。"
 dateformat = "2022/4/12"
 
 [taxonomies]
