@@ -18,3 +18,10 @@ dateformat = "2022/4/12"
 
 [taxonomies]
 tag = "tags"
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = [":git", "lastmod", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
+enableGitInfo = true
