@@ -9,11 +9,7 @@
     <link rel="stylesheet" href='{{ "css/dark.css" | absURL }}' />
     <link rel="stylesheet" href='{{ "css/syntax.css" | absURL }}' />
     <title>{{ if .IsHome }}{{ else }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
-    {{ if .Site.Params.favicon }}
-    <link rel="icon" type="image/x-icon" href='{{ .Site.Params.favicon  }}'>
-    {{ else }}
-    <link rel="icon" type="image/x-icon" href='{{ "images/favicon.ico" | absURL }}'>
-    {{ end }}
+    <link rel="icon" type="image/x-icon" href='{{ "favicon/favicon.ico" | absURL }}'>
     <meta name="theme-color" content="#1e2327">
 
     <!-- Extended head section-->
