@@ -8,12 +8,12 @@ HasCJKLanguage = true
 googleAnalytics = "G-XGGL1806HL"
 paginate = 10
 publishDir = "docs"  
-contentDir = "content/post"
+contentDir = "content/posts"
 disableKinds = ["RSS", "sitemap"]
 
 [Params]
 Description = "だーはま"
-Introduction = "いろんな知識を身につけて、快適な空間の中で人生を送りたい。"
+Introduction = "いろんな知識を身につけて、快適な生活を送りたい。"
 dateformat = "2022/4/12"
 
 [taxonomies]
